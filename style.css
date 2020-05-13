@@ -14,6 +14,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .main {
@@ -21,42 +22,44 @@ body {
   margin: 16px;
   border-radius: 16px;
   width: 624px;
+  padding: 32px;
 }
 
 .person {
 }
 
-.person__content{
-    font-family: Arial, Helvetica, sans-serif;
+.person__description{
     font-size: 16px;
     line-height: 22px;
     margin: 0;
+}
+
+.person__description--with-margin{
     margin-bottom: 22px;
 }
 
-.person__info {
-  font-family: Arial, Helvetica, sans-serif;
+.person__info{
+    margin-bottom: 24px;
+}
+
+.person__name {
   font-size: 36px;
   font-weight: normal;
   margin: 0;
 }
 
-.person__image {
-  margin: 32px;
-}
-
 .person__link{
     color: #E20613;
-    font-style: normal;
+    text-decoration: none;
     
 }
 
 .person__position {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-style: italic;
   margin: 0;
   margin-bottom: 24px;
+  color: #545454;
 }
 
 .special{
